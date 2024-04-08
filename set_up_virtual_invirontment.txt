@@ -1,0 +1,15 @@
+1- Go to project directory then open terminal in that directory, and run this command -> py -3 -m venv <name>
+
+2- The name of virtual environtement can be the same with another project, because the virtual invirenment is
+isolated in project directory.
+
+3- After the virtual environtement is made there will be a folder inside the project directory called venv.
+
+4- Set python interpreter for our project -> Go to view tab and click command palette then type '.\venv\Scripts\python.exe'
+
+5- type in terminal -> .\venv\Scripts\activate.bat if using powershell -> .\venv\Scripts\activate.ps1
+
+6- install FastAPI using pip install fastapi[all] all is indicating that we will install all dependencies that fastapi needs
+
+7- to run the fastapi app type -> uvicorn <name of file without extension>:<name of instance fastapi> 
+   to make it autoreload when the change detected add --reload in the end example uvicorn main:app --reload
