@@ -1,7 +1,7 @@
 ﻿# Fullstack-Farmer-App-Stramlit-and-FastAPI
 
 Instruction for Running The Code:
-1. Make sure to make virtul environment, the code using python 3.10.0 interpreter
+1. Make sure to run the code in virtual environment, the code using python 3.10.0 interpreter
 2. Install all dependencies in requirements.txt
 3. To run the backend, open the main folder in terminal and type backend.main:app
 4. To run the frontend, open the main folder in terminal and type streamlit run frontend/homepage.py
